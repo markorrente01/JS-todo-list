@@ -18,7 +18,7 @@
 
 ### Link
 
-- Live Site URL: [Live site](https://markorrente01.github.io/NFT-preview-card/)
+- Live Site URL: [Live site](https://markorrente01.github.io/JS-todo-list/)
 
 ### Built with
 
