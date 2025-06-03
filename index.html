@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAJ6TrAFy+8QCC0vgA7+/vAC6n7ACE0
+    /gAS2RuAKbU5QDAwMAAv+3+ACek6gApoeYAAAAAAAAAAAAAAAAARERERERERABEREREREREAEREREREREQAREREeIRERABJmZSohUREAERERKolVEQAREREozUVRABJmZRDNlFUAEREREQzZRUAREREREM
+    2W1BJmZmZRDNlxUREREREQzZVREREREREMzVJmZmZmURDM0REREREREQzRERERERERAMAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA" 
+    rel="icon" type="image/x-icon">
+    <script src="index.js" defer></script>
+    <title>To-do list</title>
+</head>
+<body>
+    <main>
+        <section class="form__container">
+            <h2>To-do List</h2>
+            <form action="">
+                <div class="input__group">
+                <input type="text" id="task" name="task" autocomplete="off"> <br>
+                <label for="task" id="task__label">New Task</label>
+                </div>
+                <input type="submit" value="ADD TASK">
+            </form>
+        </section>
+        <hr>
+        <section class="list__container">
+            <h2>Tasks</h2>
+            <div class="filter__container">
+                <input type="text" id="filter" name="filter" autocomplete="off"> <br>
+                <label for="filter" id="filterLabel">Filter Task</label>
+                </div>
+            <ul class="task__list">
+                <!-- <li>list item
+                    <svg xmlns="http://www.w3.org/2000/svg" height="22px" viewBox="0 -960 960 960" width="22px" fill="#ffab40">
+                        <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                    </svg>
+                </li> -->
+            </ul>
+            <button id="clear__task">CLEAR TASKS</button>
+        </section>
+    </main>
+</body>
+</html>
