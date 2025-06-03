@@ -198,9 +198,10 @@ svg:hover {
   main {
     width: 100%;
     box-shadow: unset;
-    margin-top: unset;
+    margin-top: 0;
   }
   input[type=submit], button {
     width: 100%;
+    border-radius: none;
   }
 }/*# sourceMappingURL=style.css.map */
